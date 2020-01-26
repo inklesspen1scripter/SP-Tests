@@ -1,0 +1,30 @@
+sm_inttostring_test 100000
+Step 1 - 0.006618
+Step 2 - 0.016660
+Step 3 - 0.014399
+Step 4 - 0.007327
+Step 5 - 0.005166
+Step 6 - 0.007719
+Step 7 - 0.005542
+Step 8 - 0.006805
+Step 9 - 0.005481
+Step 10 - 0.005074
+Step 11 - 0.014354
+
+sm_inttostring_test
+Step 1 - 0.000072
+Step 2 - 0.000164
+Step 3 - 0.000150
+Step 4 - 0.000065
+Step 5 - 0.000042
+Step 6 - 0.000067
+Step 7 - 0.000052
+Step 8 - 0.000065
+Step 9 - 0.000047
+Step 10 - 0.000042
+Step 11 - 0.000136
+
+Вывод:
+Не юзайте IntToString
+Юзайте FormatEx
+для наглядности можно посмотреть inttostring2.sp

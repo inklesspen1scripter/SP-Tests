@@ -1,0 +1,29 @@
+Test: Values - 100000, Times - 1000
+Test Init Map (100000): 0.046319
+Test Init Array (100000): 0.024324
+Test Map First: 0.000054
+Test Array First: 0.000034
+Test Map Last: 0.000062
+Test Array Last: 0.093283
+Test Map Mid: 0.000064
+Test Array Mid: 0.047014
+
+Test: Values - 1000, Times - 10000
+Test Init Map (1000): 0.000440
+Test Init Array (1000): 0.000221
+Test Map First: 0.000543
+Test Array First: 0.000347
+Test Map Last: 0.000910
+Test Array Last: 0.116951
+Test Map Mid: 0.000564
+Test Array Mid: 0.094775
+
+Test: Values - 50, Times - 10000
+Test Init Map (50): 0.000025
+Test Init Array (50): 0.000013
+Test Map First: 0.000518
+Test Array First: 0.000339
+Test Map Last: 0.000524
+Test Array Last: 0.005098
+Test Map Mid: 0.000507
+Test Array Mid: 0.005323

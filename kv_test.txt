@@ -1,0 +1,44 @@
+0.000019 - Initializing KeyValues file (10 sections)
+0.001306 - 10000 times finding first section
+0.000944 - 10000 times finding last section
+0.001218 - 10000 times finding mid section
+0.000426 - 10000 times jump first section via symbol
+0.000427 - 10000 times jump last section via symbol
+0.000420 - 10000 times jump mid section via symbol
+
+0.086663 - Initializing KeyValues file (10000 sections)
+0.001291 - 10000 times finding first section
+0.135493 - 10000 times finding last section
+0.069157 - 10000 times finding mid section
+0.070881 - 10000 times jump first section via symbol
+0.070869 - 10000 times jump last section via symbol
+0.069352 - 10000 times jump mid section via symbol
+
+0.000111 - Initializing KeyValues file (100 sections)
+1.309723 - 10000000 times finding first section
+2.927216 - 10000000 times finding last section
+2.466683 - 10000000 times finding mid section
+1.213406 - 10000000 times jump first section via symbol
+1.242543 - 10000000 times jump last section via symbol
+1.224943 - 10000000 times jump mid section via symbol
+
+7.681489 - Initializing KeyValues file (100000 sections)
+0.000133 - 1000 times finding first section
+0.146002 - 1000 times finding last section
+0.067968 - 1000 times finding mid section
+0.072141 - 1000 times jump first section via symbol
+0.073054 - 1000 times jump last section via symbol
+0.072351 - 1000 times jump mid section via symbol
+
+Вывод:
+если секций мало и используется малократно - лучше использовать JumpToKey
+если секций много и используется многократно - JumpToKeySymbol
+
+0.000018 - Initializing KeyValues file (10 sections)
+0.012775 - 100000 times finding first section
+0.009471 - 100000 times finding last section
+0.012315 - 100000 times finding mid section
+0.004318 - 100000 times jump first section via symbol
+0.004236 - 100000 times jump last section via symbol
+0.004365 - 100000 times jump mid section via symbol
+Почему переход к последней секции быстре, чем к первой или средней?
