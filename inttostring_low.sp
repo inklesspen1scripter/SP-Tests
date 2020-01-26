@@ -1,7 +1,5 @@
 #include <profiler>
 
-#define IntToString(%1, %2, %3) FormatEx(%2, %3, %1)
-
 public void OnPluginStart()
 {
 	RegServerCmd("sm_inttostring_low_test", CMD)

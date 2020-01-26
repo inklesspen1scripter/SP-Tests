@@ -1,0 +1,1 @@
+#define IntToString(%0,%1,%2) FormatEx(%1,%2,"%i",%0)
